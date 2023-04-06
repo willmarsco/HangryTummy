@@ -5,3 +5,46 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 .clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* Deep Orange
+#E75605
+231, 86, 5
+Darkey Grey
+#1F2022
+31, 32, 34
+White
+#FFFFFF
+255, 255, 255
+Light Grey
+#EEEEEE
+238, 238, 238*/
+
+/* Main Heading Text (Hangry Tummy)
+Montserrat, Regular, 145px
+Section Headings (New To Our Menu, Full Experience, …)
+Montserrat, Bold, 42px
+Button Text (Read More, Subscribe)
+Montserrat, Bold, 20px
+Body text (lorem ipsum, address)
+Catamaran, Regular, 20px
+Navigation Menu (Home, About,...) Section Links (Locations, Menu, Reach Out)
+Montserrat, Regular, 20px Montserrat, Bold, 42px
+ */
+
+
+/* Gemeral */
+
+body {
+    font-family: Montserrat;
+}
+
+body, header, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+nav ul {
+    display: flex;
+}
