@@ -31,6 +31,13 @@ Navigation Menu (Home, About,...) Section Links (Locations, Menu, Reach Out)
 Montserrat, Regular, 20px Montserrat, Bold, 42px
  */
 
+ /* 
+ imageContainer
+ titleContainer
+ iconContainer
+ 
+ */
+
 
 /* Gemeral */
 
@@ -43,8 +50,68 @@ body, header, ul {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
 /* header */
 
 nav ul {
     display: flex;
+    margin: 0 auto;
+    width: 40%;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:focus,
+nav a:hover{
+    color: #E75605;
+}
+
+.heroContainer{
+    display: flex;
+}
+
+.imageContainer{
+    width: 40%;
+}
+.imgContainer img{
+    width: 100%;
+
+}
+
+.titleContainer h1{
+    color:#E75605;
+    font-size: 145px;
+    width: 40%;
+}
+
+.titleContainer{
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.iconContainer{
+    color: #E75605;
+    font-size: 30px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.iconContainer i{
+    color:#E75605
 }
